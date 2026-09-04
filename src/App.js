@@ -3,7 +3,7 @@ import './App.css';
 
 const API_URL = process.env.REACT_APP_API_URL || (
   process.env.NODE_ENV === 'production'
-    ? 'https://express-crud-json.onrender.com/api/notes'
+    ? 'https://exemple-project-api-rest-backend.onrender.com/api/notes'
     : 'http://localhost:3000/api/notes'
 );
 
