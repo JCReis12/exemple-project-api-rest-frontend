@@ -1,49 +1,44 @@
-Sobre o Projeto
+# Frontend | Notas App
 
-Este projeto é um frontend desenvolvido em React, criado para consumir os dados fornecidos pela API hospedada no Render. Ele funciona como um aplicativo de notas, permitindo criar, visualizar, atualizar e excluir informações.
+Frontend em React para consumir a API de notas hospedada no Render. A aplicação permite criar, visualizar, atualizar e excluir notas.
 
-Tecnologias Utilizadas
+## Tecnologias
 
-React
+- React
+- Fetch API ou Axios, conforme a implementação
+- Vercel para deploy
 
-Fetch API / Axios (dependendo da implementação)
+## Funcionalidades
 
-Vercel (Deploy)
+- Exibir as notas retornadas pela API
+- Adicionar novas notas
+- Editar notas existentes
+- Excluir notas
+- Utilizar uma interface simples e intuitiva
 
-Funcionalidades
+## Integração com o backend
 
-Exibe as notas retornadas pela API
+O app consome diretamente a API do projeto backend por meio das seguintes operações CRUD:
 
-Permite adicionar novas notas
+| Operação | Ação |
+| --- | --- |
+| `GET` | Obter a lista de notas |
+| `POST` | Criar uma nova nota |
+| `PUT` / `PATCH` | Atualizar uma nota |
+| `DELETE` | Excluir uma nota |
 
-Permite editar notas existentes
+## Como executar localmente
 
-Permite excluir notas
+1. Instale as dependências:
 
-Interface simples e intuitiva
+	```bash
+	npm install
+	```
 
-Integração com o Backend
+2. Inicie a aplicação:
 
-O app consome os dados diretamente da API do projeto backend, fazendo as chamadas CRUD para:
+	```bash
+	npm start
+	```
 
-Obter lista de notas
-
-Criar uma nova nota
-
-Atualizar uma nota
-
-Excluir uma nota
-
-Como Executar Localmente
-
-Clone o repositório
-
-Instale as dependências:
-
-npm install
-
-Execute o app:
-
-npm run dev
-
-Acesse em http://localhost:5173 (ou porta especificada)
+3. Acesse [http://localhost:3000](http://localhost:3000) ou a porta informada pelo terminal.
