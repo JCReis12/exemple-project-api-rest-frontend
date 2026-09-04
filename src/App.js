@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000/api/notes';
+const API_URL = process.env.REACT_APP_API_URL || (
+  process.env.NODE_ENV === 'production'
+    ? 'https://express-crud-json.onrender.com/api/notes'
+    : 'http://localhost:3000/api/notes'
+);
 
 function App() {
   const [notas, setNotas] = useState([]);

@@ -3,7 +3,11 @@ body {
   font-family: Georgia, 'Times New Roman', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f5f1eb;
+  background:
+    radial-gradient(circle at 8% 12%, rgba(244, 181, 93, .16) 0 1px, transparent 1px),
+    radial-gradient(circle at 82% 76%, rgba(50, 57, 48, .08) 0 1px, transparent 1px),
+    #f5f1eb;
+  background-size: 24px 24px, 31px 31px, auto;
   color: #20252b;
 }
 
