@@ -2,6 +2,12 @@
 
 Frontend em React para consumir a API de notas hospedada no Render. A aplicação permite criar, visualizar, atualizar e excluir notas.
 
+## Acesso online
+
+- Aplicação publicada: [https://exemple-project-api-rest-frontend.vercel.app/](https://exemple-project-api-rest-frontend.vercel.app/)
+- Backend utilizado: [https://exemple-project-api-rest-backend.onrender.com](https://exemple-project-api-rest-backend.onrender.com)
+- API de notas: [https://exemple-project-api-rest-backend.onrender.com/api/notes](https://exemple-project-api-rest-backend.onrender.com/api/notes)
+
 ## Tecnologias
 
 - React
@@ -41,4 +47,4 @@ O app consome diretamente a API do projeto backend por meio das seguintes opera�
 	npm start
 	```
 
-3. Acesse [http://localhost:3000](http://localhost:3000) ou a porta informada pelo terminal.
+3. Acesse [http://localhost:3001](http://localhost:3001) ou a porta informada pelo terminal.
